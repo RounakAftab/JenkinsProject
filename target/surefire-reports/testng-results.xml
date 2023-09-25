@@ -2,28 +2,28 @@
 <testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-25T12:50:13 BDT" name="Suite" finished-at="2023-09-25T12:50:39 BDT" duration-ms="26571">
+  <suite started-at="2023-09-25T23:12:25 BDT" name="Suite" finished-at="2023-09-25T23:12:56 BDT" duration-ms="30283">
     <groups>
     </groups>
-    <test started-at="2023-09-25T12:50:13 BDT" name="Test" finished-at="2023-09-25T12:50:39 BDT" duration-ms="26571">
+    <test started-at="2023-09-25T23:12:25 BDT" name="Test" finished-at="2023-09-25T23:12:56 BDT" duration-ms="30283">
       <class name="com.PARA.testcasesUpadateContact.UpdateContact">
-        <test-method signature="goContactPage()[pri:2, instance:com.PARA.testcasesUpadateContact.UpdateContact@61862a7f]" started-at="2023-09-25T12:50:20 BDT" name="goContactPage" finished-at="2023-09-25T12:50:39 BDT" duration-ms="19150" status="PASS">
+        <test-method signature="goContactPage()[pri:2, instance:com.PARA.testcasesUpadateContact.UpdateContact@2b4bac49]" started-at="2023-09-25T23:12:37 BDT" name="goContactPage" finished-at="2023-09-25T23:12:56 BDT" duration-ms="18849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goContactPage -->
       </class> <!-- com.PARA.testcasesUpadateContact.UpdateContact -->
       <class name="com.PARA.login.LoginTest">
-        <test-method signature="login()[pri:1, instance:com.PARA.login.LoginTest@384ad17b]" started-at="2023-09-25T12:50:13 BDT" name="login" finished-at="2023-09-25T12:50:20 BDT" duration-ms="7391" status="PASS">
+        <test-method signature="login()[pri:1, instance:com.PARA.login.LoginTest@3f56875e]" started-at="2023-09-25T23:12:25 BDT" name="login" finished-at="2023-09-25T23:12:37 BDT" duration-ms="11385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- com.PARA.login.LoginTest -->
       <class name="com.PARA.base.TestBase">
-        <test-method is-config="true" signature="setUP()[pri:0, instance:com.PARA.base.TestBase@7714e963]" started-at="2023-09-25T12:50:06 BDT" name="setUP" finished-at="2023-09-25T12:50:13 BDT" duration-ms="7007" status="PASS">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.PARA.base.TestBase@6a2b953e]" started-at="2023-09-25T23:12:16 BDT" name="setUP" finished-at="2023-09-25T23:12:25 BDT" duration-ms="9215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.PARA.base.TestBase@7714e963]" started-at="2023-09-25T12:50:39 BDT" name="tearDown" finished-at="2023-09-25T12:50:40 BDT" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.PARA.base.TestBase@6a2b953e]" started-at="2023-09-25T23:12:56 BDT" name="tearDown" finished-at="2023-09-25T23:12:56 BDT" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
