@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TransferAmountTest(failed)">
+    <classes>
+      <class name="com.PARA.testcasesBillPay.BillPay">
+        <methods>
+          <include name="tearDown"/>
+          <include name="goContactPage"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.PARA.testcasesBillPay.BillPay -->
+    </classes>
+  </test> <!-- TransferAmountTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

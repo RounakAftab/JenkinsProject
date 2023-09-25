@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="TransferAmountTest">
+    <classes>
+      <class name="com.PARA.base.TestBase"/>
+      <class name="com.PARA.login.LoginTest"/>
+      <class name="com.PARA.testcasesBillPay.BillPay"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
