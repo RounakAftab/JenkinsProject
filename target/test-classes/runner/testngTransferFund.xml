@@ -6,6 +6,7 @@
       <class name="com.PARA.base.TestBase"/>
       <class name="com.PARA.login.LoginTest"/>
       <class name="com.PARA.testcasesBillPay.BillPay"/>
+   
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

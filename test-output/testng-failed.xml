@@ -3,6 +3,12 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="TransferAmountTest(failed)">
     <classes>
+      <class name="com.PARA.base.TestBase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.PARA.base.TestBase -->
       <class name="com.PARA.testcasesBillPay.BillPay">
         <methods>
           <include name="tearDown"/>
@@ -10,6 +16,13 @@
           <include name="setUP"/>
         </methods>
       </class> <!-- com.PARA.testcasesBillPay.BillPay -->
+      <class name="com.PARA.login.LoginTest">
+        <methods>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.PARA.login.LoginTest -->
     </classes>
   </test> <!-- TransferAmountTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
